@@ -1,0 +1,127 @@
+body{
+    background-color:#009688;
+}
+
+.jumbotron{
+    background-color:#002925;
+    margin-bottom: 0;
+}
+
+.jumbotron h1{
+    color:#ffff99;
+}
+
+.jumbotron h3{
+    color:#0000ff;
+}
+
+.navbar navbar-inverse{
+    z-index: 100;
+    margin-top: 1%;
+}
+
+.affix {
+    z-index: 100;
+    top: 0;
+    right:0;
+    left:0;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+#contenedorPubli{
+    right:5%;
+}
+
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    display:block;
+    margin:auto;
+}
+
+.btn{
+    margin-bottom: 15px;
+}
+
+/* Pantallas pequeñes */
+@media (max-width: 991px){
+
+    #publiGrande{
+        display:none;
+    }
+
+    #publiPequeña{
+        z-index: 100;
+        background-color: red;
+        position: fixed;
+        height: 90px;
+        width:100%;
+        bottom: 0;
+        left:0;
+        background-image: url("../img/pubabjo.jpg");
+        background-size: 100% auto;
+    }
+
+    .navbar-toggle{
+        float: left;
+        margin-left:30px!important;
+        margin-right: auto;
+    }
+
+    .col-centered{
+        float: none;
+        margin: 0 auto;
+    }
+
+    #body{
+        margin-bottom:105px;
+    }
+
+
+}
+
+/* Pantallas grandes */
+@media (min-width: 992px) {
+
+    #publiGrande{
+        display:block;
+        background-color:red;
+        width:300px;
+        height: auto;
+        right: 5%;
+        margin-left: 5%;
+    }
+
+    #publiPequeña{
+        display:none;
+    }
+
+    .affix-top {
+        z-index: 100;
+        left:0%;
+        right:0%;
+    }
+
+    .panel panel-default{
+        margin-right: 5px;
+    }
+
+    .noticia{
+        /*        padding-right: 5%;*/
+        margin-right: 5%;
+    }
+}  
+
+/*Img pág 404*/
+#img404{
+    width:100%;
+}
+
+

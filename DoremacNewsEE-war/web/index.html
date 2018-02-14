@@ -1,16 +1,119 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>DOREMAC NEWS</title>
+        <link rel="icon" href="./img/favicon.ico" type="img/x-icon"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link href="https://github.com/Cdoreno/DoremacNews/blob/principal/public_html/rss/rss.xml" rel="alternate" type="application/rss+xml" title="RSS Portada"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/scripts.js" type="text/javascript"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Web de noticias actuales">
+        <meta property="og:site_name" content="Doremac News">
+        <meta property="og:url" content="https://rawgit.com/Cdoreno/DoremacNews/principal/public_html/index.html">
+        <meta property="og:title" content="Doremac News">
+        <meta property="og:image" content="https://github.com/Cdoreno/DoremacNews/blob/principal/public_html/img/logoNoticias.png">
+        <meta property="og:description" content="Web de noticias actuales">
     </head>
     <body>
-        <div>TODO write content</div>
+        <div id="body">
+            <div class="jumbotron">
+                <div class="container">
+                    <div class="media">
+                        <h1 class="text-center">Doremac News</h1>
+                        <h3 class="text-right">Tu web de noticias</h3>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197" id="barra">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#contenidoBarra">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>   
+                    <div class="collapse navbar-collapse" id="contenidoBarra">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Inicio</a></li>
+                            <li><a href="html/404.html">Negocios</a></li>
+                            <li><a href="html/news/news1.html">Entretenimiento</a></li>
+                            <li><a href="html/news/news2.html">Humor</a></li>
+                            <li><a href="html/404.html">Juegos</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Otros
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="html/404.html">Viajes</a></li>
+                                    <li><a href="html/404.html">Comida</a></li>
+                                    <li><a href="html/404.html">Ciencia y tecnología</a></li>
+                                </ul>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="html/404.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav> 
+            <div class="container">
+                <div class="row">
+                    <div  class="col-xs-12 col-sm-12 col-md-8 col-lg-9"  id="contenedorNoticias">
+                        <div class="well noticia">
+                            <div class="row">
+                                <div class="col-md-3 col-lg-3 text-center">
+                                    <img class="img-responsive img" src="img/noticia1big.jpg" alt="fotoNoticia"/>
+                                    <p>12:05 28/05/17<p>
+                                </div>
+                                <div class="col-md-9 col-lg-9">
+                                    <h3 class="text-center"><a href="html/news/news1.html">Los secretos de «Juego de Tronos» que revela el tráiler de la séptima temporada</a></h3>
+                                    <p class="text-justify">Este miércoles, al fin, pudimos ver el primer tráiler oficial de la séptima temporada de «Juego de Tronos», la saga de Jorge Rabanito, que se estrenará el próximo 17 de junio en España. El tráiler de la ficción de HBO, de 1:41 minutos de duración, nos da grandes claves sobre el modo en que se desarrollarán las tramas durante la esperada temporada.</p>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="well noticia">
+                            <div class="row">
+                                <div class="col-md-3 col-lg-3 text-center">
+                                    <img class="img-responsive img" src="img/noticia2big.jpg" alt="fotoNoticia"/>
+                                    <p>21:01 27/05/17<p>
+                                </div>
+                                <div class="col-md-9 col-lg-9">
+                                    <h3 class="text-center"><a href="html/news/news2.html">Agacharse para hacer fotos al perro es ya el único ejercicio que realizan los españoles</a></h3>
+                                    <p class="text-justify">Agacharse y adoptar una postura incómoda forzando glúteos y piernas a fin de poder sacar una foto frontal del perro que poder compartirla en las redes sociales es ya el único ejercicio físico que realizan los españoles.</p>
+                                </div>
+                            </div>
+                        </div>  
+
+                        <div class="well noticia">
+                            <div class="row">
+                                <div class="col-md-3 col-lg-3 text-center">
+                                    <img class="img-responsive img" src="img/noticia3big.jpg" alt="fotoNoticia"/>
+                                    <p>10:01 26/05/17<p>
+                                </div>
+                                <div class="col-md-9 col-lg-9">
+                                    <h3 class="text-center"><a href="html/404.html">Golpear el coche de al lado equivaldrá a poner el intermitente a partir de 2018</a></h3>
+                                    <p class="text-justify">La Dirección General de Tráfico (DGT) ha presentado esta mañana un paquete de medidas cuyo objetivo principal es “adaptar el reglamento actual de circulación a las costumbres ya consolidadas de los conductores españoles”.</p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3" id="contenedorPubli">
+                        <div id="publiGrande">
+                            <a href="html/404.html"><img class="img-responsive" src="img/pubdcha.jpg" alt="adsPubli"/></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center" id="cargarMas">
+                    <input class="btn btn-default" type="submit" value="Cargar más..." />
+                </div>
+            </div>
+            <div id="publiPequeña">
+                <a href="html/404.html"></a>
+            </div>
+        </div>
     </body>
 </html>

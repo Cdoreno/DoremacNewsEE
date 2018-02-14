@@ -1,0 +1,24 @@
+[
+    {
+        "titulo": "Pierde a toda su familia por salir del grupo de WhatsApp “Familia”",
+        "fecha": "11:00 25/05/17",
+        "imagen": "img/noticia4.jpg",
+        "imagenBig":"img/noticia4big.jpg",
+        "descripcion": "Antonio Máñez ha perdido el contacto con su mujer, sus tres hijos y sus dos nietos de forma definitiva e irrevocable después de haber tomado la drástica decisión de abandonar el grupo de WhatsApp “Familia”, donde sus familiares y allegados, incluidos varios primos, tíos y abuelos, comparten vivencias cotidianas y refuerzan sus lazos afectivos."
+    },
+    {
+        "titulo": "Las diez debilidades más comunes entre los superhéroes",
+        "fecha": "09:15 24/05/17",
+        "imagen": "img/noticia5.jpg",
+        "imagenBig":"img/noticia5big.jpg",
+        "descripcion": "Los puntos débiles de nuestros superhéroes favoritos son de lo más curiosos e increíbles. Algunos son bastante tontos a decir verdad. Muchas vulnerabilidades tienen que ver con sus propias características, aquellas que los distinguen del resto de los mortales. También los villanos tienen sus puntos débiles, que son realmente absurdos."
+    },
+    {
+        "titulo": "Susana Díaz regresa a la fontanería tras el batacazo ante Pedro Sánchez",
+        "fecha": "12:50 23/05/17",
+        "imagen": "img/noticia6.jpg",
+        "imagenBig":"img/noticia6big.jpg",
+        "descripcion": "El pasado 10 de junio Susana Díaz respondía a Podemos y decía ser de la casta, pero de una casta de fontaneros. Díaz animaba aquel día al PSOE a defender sin complejos sus propuestas y pedía dejar de copiar programas electorales de partidos accesorios. Desde aquellas declaraciones, Podemos se ha cologado primer partido en intención directa de voto y segundo partido en intención estimada en las encuestas."
+    }
+]
+

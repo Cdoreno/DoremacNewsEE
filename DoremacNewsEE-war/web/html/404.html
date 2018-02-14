@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOREMAC NEWS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Web de noticias actuales">
+        <link rel="icon" href="./img/favicon.ico" type="img/x-icon"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua" rel="stylesheet"/> 
+        <link rel="stylesheet" href="../css/style.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div id="body">
+            <div class="jumbotron">
+                <div class="container">
+                    <div class="media">
+                        <h1 class="text-center">Doremac News</h1>
+                        <h3 class="text-right">Tu web de noticias</h3>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197" id="barra">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#contenidoBarra">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>   
+                    <div class="collapse navbar-collapse" id="contenidoBarra">
+                        <ul class="nav navbar-nav">
+                            <li><a href="../index.html">Inicio</a></li>
+                            <li><a href="404.html">Negocios</a></li>
+                            <li><a href="news/news1.html">Entretenimiento</a></li>
+                            <li><a href="news/news2.html">Humor</a></li>
+                            <li><a href="404.html">Juegos</a></li>
+                            <li class="dropdown active">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Otros
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="404.html">Viajes</a></li>
+                                    <li><a href="404.html">Comida</a></li>
+                                    <li><a href="404.html">Ciencia y tecnologia</a></li>
+                                </ul>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="404.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav> 
+            <div class="container">
+                <div class="row">
+                    <div  class="col-xs-12 col-sm-7 col-md-8 col-lg-9"  id="contenedorNoticias">
+                        <form action="../index.html" class="text-center">
+                            <input type="submit" value="Volver a la pagina principal..." />
+                        </form>
+                        <img id="img404" src="../img/error404.png" alt="404"/>
+                        <form action="../index.html" class="text-center">
+                            <input type="submit" value="Volver a la pagina principal..." />
+                        </form>
+                    </div>
+
+                    <div class="col-sm-5 col-md-4 col-lg-3" id="contenedorPubli">
+                        <div id="publiGrande">
+                            <a href="html/404.html"><img class="img-responsive" src="../img/pubdcha.jpg" alt="adsPubli"/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="publiPequeña">
+                <a href="html/404.html"></a>
+            </div>
+        </div>
+    </body>
+</html>

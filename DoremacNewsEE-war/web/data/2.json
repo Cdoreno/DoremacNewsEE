@@ -1,0 +1,24 @@
+[
+    {
+        "titulo": "Fechas de estreno de las próximas películas de superhéroes",
+        "fecha": "13:00 22/05/17",
+        "imagen": "img/noticia7.jpg",
+        "imagenBig":"img/noticia7big.jpg",
+        "descripcion": "Los estudios saben que la mina de oro de las películas de superhéroes es inagotable. Reproducimos a continuación las fechas de estreno de los próximos “blockbusters” sobre héroes enmascarados."
+    },
+    {
+        "titulo": "Diez cosas que debes hacer en caso de que un intruso entre en tu casa",
+        "fecha": "08:15 21/05/17",
+        "imagen": "img/noticia8.jpg",
+        "imagenBig":"img/noticia8big.jpg",
+        "descripcion": "Despertarse por los ruidos de un intruso en tu casa o ver cómo alguien manipula la manija de tu puerta desde el exterior puede resultar demasiado abrumador para cualquiera. Sin embargo, por atemorizante que te parezca encontrarte en esta situación, hay algunas cosas que debes hacer si quieres mantenerte con vida y alejar al intruso de tu casa."
+    },
+    {
+        "titulo": "Imágenes históricas totalmente virales que cuestan de creer pero sucedieron y se hicieron virales",
+        "fecha": "02:50 20/05/17",
+        "imagen": "img/noticia9.jpg",
+        "imagenBig":"img/noticia9big.jpg",
+        "descripcion": "Selfies de 'celebrities', ilusiones ópticas, enfrentamientos en mitad de una manifestación, fotos tan polémicas como falsas... son algunos de los elementos que garantizan que una imagen, casi sin quererlo, se convertirá en viral al instante en redes sociales e internet. ."
+    }
+]
+
